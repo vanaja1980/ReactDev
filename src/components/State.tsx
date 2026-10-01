@@ -32,7 +32,7 @@ function StateDemo() {
     console.log(Person.firstName);
     console.log(count, Counts);
     //Nested object properies
-    setDept({ ...Dept, catgory: { ...Dept.catgory, name: "eCommerce" } });
+    setDept({ ...Dept, catgory: { ...Dept.catgory, name: "eCommerce dept" } });
     console.log(Dept.catgory.name);
   };
   useEffect(() => {}, [Counts]);
