@@ -28,7 +28,7 @@ function StateDemo() {
     // const Persons = { firstName: "vanu", lastName: "dd" };
     // setPerson(Persons);
     // 2:
-    setPerson({ ...Person, firstName: "Sug" });
+    setPerson({ ...Person, firstName: "Sugamya" });
     console.log(Person.firstName);
     console.log(count, Counts);
     //Nested object properies

@@ -94,7 +94,7 @@ function AddUser() {
 
           {/* Users */}
           <div className="mt-4">
-            <h4>Users</h4>
+            <h4>Users Information</h4>
 
             {users.map((user, index) => (
               <div key={index} className="card mb-2">
